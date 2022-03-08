@@ -1,13 +1,13 @@
-body {
-    height: 100%;
+:root {
+    --instagram_iconSize: 70px;
 }
 
 .instagram-button {
     position: fixed;
     bottom: 1rem;
     right: 1rem;
-    height: 70px;
-    width: 70px;
+    height: var(--instagram_iconSize);
+    width: var(--instagram_iconSize);
     cursor: pointer;
     animation: instagram-fade-in 0.7s;
 }
